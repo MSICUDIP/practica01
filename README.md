@@ -31,5 +31,5 @@ El script de calificación calcula el [MAE](https://en.wikipedia.org/wiki/Mean_a
 python __init__.py 
 ```
 
-y mi propia implementación (que sirve como *ground truth*).
+desde la carpeta **practica01**. Se compara su resultado contra mi propia implementación, que sirve como *ground truth*.
 
