@@ -30,7 +30,7 @@ def cargar_imagen(ruta_imagen_txt):
     return img.astype('uint8')
 
 # Método para agrandar la imágen
-def agrandar_imagen(arreglo_bidimensional, tamaño):
+def agrandar_imagen(arreglo_bidimensional, tamanio):
     ''' tamaño será un número entero (en el caso del ejemplo, la función recibe un 3) '''
     
     # esto crea una imagen en blanco
@@ -46,5 +46,5 @@ def guardar_imagen(arreglo_bidimensional, ruta_de_salida="../resultado.txt"):
     # TODO: AQUÍ VA EL CODIGO
     
     # aquí no vamos a guardar nada, la salida se escribe en disco
-    raise NotImplementedError("No está implementado")
+    raise NotImplementedError("No esta implementado")
 
